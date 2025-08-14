@@ -1,0 +1,19 @@
+2.  Qual a função do main.js ?
+  R: A função do main.js dentro do Vue é ser o ponto de entrada das aplicações. Ele server para criar e montar o app Vue no index.html, configura também os pluggins, rotas, estado global e as bibliotecas, e importa os estilos e recursos globais dentro do código.
+
+3.  O que é o App.vue?
+  R: O App.Vue é o componente raiz, ou seja o "container principal" onde todos os componentes serão exibidos. 
+
+4. Para que serve os arquivos em views?
+  R: A pasta /views normalmente são armazenados os componentes de paginas, ou seja, cada arquivo dentro do views é representados por uma tela de exbição dentro do site.
+    Exemplo de Estrutura:
+      views/
+       ├── Home.vue
+       ├── About.vue
+       └── Services.vue
+
+5. Como o Vue Router usa as views?
+  R: O Vue Router utiliza as views mapea cada URL para uma página e exibindo essa página dentro do "<router-view> dentro do App.vue 
+
+6. O que daz app.mount('#app')?
+  R: O app.mount('#app') faz a conexão da aplicação do vue ao HTML real, tornando-a funcional e visível na pagina.
