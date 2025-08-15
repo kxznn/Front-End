@@ -1,7 +1,7 @@
 <template>
   <Header />
   <section class="container">
-    <h2>Bem-vindo à nossa agência!</h2>
+    <h2>Seja bem-vindo nossa loja de Games</h2>
     <p><Em>Explore nossas franquias de jogos e mergulhe nas aventuras imersivas.</Em></p>
     <p>{{ store.text }} </p>
 
